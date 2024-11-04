@@ -1,4 +1,10 @@
+/* https://mohs-74.github.io/Moderno/ */
+
+
+
 /*  
+
+
 
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
@@ -1017,7 +1023,8 @@ footer span{
 
 }
 
-@media screen and (max-width:479px) {
+
+@media screen and (max-width:637px) {
 
     footer{
         display: flex;
@@ -1030,32 +1037,82 @@ footer span{
     
         height: 20vh;
     
-        padding: 0px 4%;
+        padding: 0px 10%;
     
         background-color: var(--Second-color);
     }
     
     footer a{
     
-        margin-left: 10px;
+        margin-left: 7px;
     
         text-decoration: none;
     
         color: white;
     
-        font-size: 1.5em;
+        font-size: 1em;
     
         transition: all 0.5s ease;
     }
     
     footer p{
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
     
     footer span{
         color: var(--Main-color);
     
         font-size: 1em;
+    
+        
+    }
+    
+}
+
+
+@media screen and (max-width:479px) {
+
+    footer{
+        display: flex;
+    
+        justify-content: space-between;
+    
+        
+        flex-direction: column;
+        align-items: center;
+    
+        height: 20vh;
+    
+        padding: 7% 4%;
+    
+        background-color: var(--Second-color);
+
+        
+    }
+    
+    footer a{
+    
+        margin-left: 5px;
+    
+        text-decoration: none;
+    
+        color: white;
+    
+        font-size: 1.3em;
+    
+        transition: all 0.5s ease;
+
+        margin-top: -10px;
+    }
+    
+    footer p{
+        font-size: 1em;
+    }
+    
+    footer span{
+        color: var(--Main-color);
+    
+        font-size: 1.3em;
     
         
     }
